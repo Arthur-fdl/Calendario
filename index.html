@@ -19,12 +19,12 @@
             <span>Domingo</span>
         </div>
         <div class="dias-numeros">
-            <span></span>
-            <span></span>
+            <span class="mes-anterior">30</span>
+            <span class="mes-anterior">31</span>
         </div>
     <script>
         let el = document.querySelector('.dias-numeros');
-        for(i = 0; i <= 31; i++){
+        for(i = 1; i <= 31; i++){
             el.innerHTML += '<span>' +i+ '</span>';
         }
     </script>
